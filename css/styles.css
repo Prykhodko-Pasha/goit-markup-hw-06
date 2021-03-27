@@ -779,7 +779,8 @@ textarea::placeholder {
   border: 2px solid var(--logo-header-color);
   border-radius: 2px;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .agreement-checkbox:checked + .agreement-text > .check-off {
@@ -837,6 +838,8 @@ textarea::placeholder {
   border-radius: 50%;
   cursor: pointer;
   fill: currentColor;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
