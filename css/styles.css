@@ -757,6 +757,7 @@ textarea::placeholder {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .agreement-text svg {
@@ -772,6 +773,7 @@ textarea::placeholder {
 .check-off {
   position: absolute;
   top: 50%;
+  left: 0;
   transform: translateY(-50%);
   width: 16px;
   height: 15px;
